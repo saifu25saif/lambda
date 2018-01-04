@@ -1,0 +1,384 @@
+/*
+Author: Saifur Rahman Chowdjury
+E-mail: saifu25saif@gmail.com
+Contact: +880-1816-120934
+Website: http://saif-rahman.com
+*/
+
+/* for mobile responsiveness */
+@media (max-width: 767px) {   }
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {  }
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){  }
+
+
+/*
+===================================
+        Slider Part Start
+===================================
+*/
+.slider_wrapper{
+    background-image: url(../images/main_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 700px;
+    background-size: cover;
+    padding-top: 20px;
+}
+.slider_wrapper>.row>.container>.header>.menu{
+    margin-top: 30px;
+}
+.slider_wrapper>.row>.container>.header>.menu>ul>li>a{
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Gentium Book Basic', serif;
+}
+.slider_wrapper>.row>.container>.header>.menu>ul>li>a:hover{
+    text-decoration: none;
+    color: #EFDEB3;
+    border-bottom: 1px solid #EFDEB3;
+}
+.fa{
+    width: 5px;
+    color:#CCB02B;
+    padding-right: 10px;
+}
+.fa:hover{
+    color: #8A4E05;
+}
+.sliderpart{
+    padding-top: 120px;
+}
+.sliderpart>div>h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 78px;
+    color: #f1f0f0;
+    margin:0;
+}
+.sliderpart> .pechano{
+    padding-top: 20px;
+}
+.slider_button{
+    opacity: 0.7;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.slider_button>div>a{
+    text-decoration: none;
+    color: white;
+}
+.btn1{
+    background-color: #000000;
+    padding-top: 15px; padding-bottom: 15px;
+    padding-left: 30px; padding-right: 30px;
+    border: 1px solid black;
+}
+.btn1:hover{
+    background: none;
+    border: 2px solid black;
+    color: #ffff1a;
+}
+.btn2{
+    color: black;
+    background-color: #c9ae45;
+    padding-top: 15px; padding-bottom: 15px;
+    padding-left: 30px; padding-right: 30px;
+    border: 1px solid black;
+}
+.btn2:hover{
+    color: white;
+    background: none;
+    border: 2px solid #ff9900;
+}
+/*
+===================================
+        Slider Part End
+===================================
+*/
+
+/*
+===================================
+        Food Part Start
+===================================
+*/
+.food_wrapper{
+    background-image: url("../images/patternback.png");
+    background-position:center;
+    background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.cook>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.cook>h1{
+    padding-top: 30px;
+    font-family: 'Yeseva One', cursive;
+    color: #d5ab2d;
+    font-size: 36px;
+}
+.cook>img{
+    width: 150px;
+    padding-top: 15px;
+}
+.dish>img{
+    width: 480px;
+}
+/*
+===================================
+        Food Part End
+===================================
+*/
+/*
+===================================
+        Ingredient Part Start
+===================================
+*/
+.ingredient_wrapper{
+    background-image: url("../images/green_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    min-height: 700px;
+}
+.item_background{
+    margin-top: 150px;
+    background-color: black;
+    opacity: 0.6;
+    min-height: 400px;
+}
+.item_content>h1{
+    font-family: 'Yeseva One', cursive;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    margin: 0px;
+}
+.item_content>p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color:#C0BBB7;
+}
+.item_content>.pechano>img{
+    padding: 20px;
+    width: 180px;
+}
+/*
+===================================
+        Ingredient Part End
+===================================
+*/
+
+/*
+===================================
+        Dishes Part Start
+===================================
+*/
+.dishes_wrapper{
+    background-image: url("../images/blockpattern.png");
+    min-height: 1000px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dishes_title>h1{
+    padding-top: 80px;
+    font-family: 'Yeseva One', cursive;
+    color: #d5ab2d;
+    font-size: 35px;
+    font-weight: 500;
+}
+.dishes_title>.pechano>img{
+    width: 150px;
+}
+.menu_list>h2{
+    font-family: 'Yeseva One', cursive;
+    color: #d5ab2d;
+    border-bottom: 2px solid #e2d8b0;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.menu_list>h2>span{
+    float: right;
+}
+.menu_list>p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+/*
+===================================
+        Dishes Part End
+===================================
+*/
+
+/*
+===================================
+        Review Part Start
+===================================
+*/
+.review_wrapper{
+    min-height: 750px;
+    background-image: url("../images/sik-kabab.png");
+    background-size: cover;
+    background-attachment: fixed
+}
+.guest_review>.review{
+    margin-top: 130px;
+    background-color: black;
+    min-height: 500px;
+    opacity: 0.8;
+}
+.guest_review>.review>h1{
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 50px;
+    font-size: 34px;
+}
+.guest_review>.review>.pechano>img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.quote>div>p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Slabo 27px', serif;
+}
+/*
+===================================
+        Review Part End
+===================================
+*/
+
+/*
+===================================
+        Booking Part Start
+===================================
+*/
+.booking_wrapper{
+    background-image: url("../images/patternback.png");
+    min-height: 750px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.booking{
+    margin-top: 80px;
+}
+.booking_table>img{
+    width: 380px;
+    height: 520px;
+    margin-top: 30px;
+}
+.booking_title>h1{
+    font-family: 'Yeseva One', cursive;
+    color: #d5ab2d;
+    font-size: 33px;
+}
+.booking_title>.pechano>img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.booking_content>div>p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.form-group label{
+    color:#CC9900;
+}
+.form-group input{
+    border:1px solid #CC9900;
+}
+.mybookbutton {
+    padding:6px 55px;
+    background:#CC9900;
+    font-weight: bold;
+}
+/*
+===================================
+        Booking Part End
+===================================
+*/
+
+/*
+===================================
+        About us Part Start
+===================================
+*/
+.info_wrapper{
+    min-height: 322px;
+    background-color: #191919;
+    padding-top: 80px;
+}
+.about>h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 23px;
+    color:white;
+    font-weight: 500;
+}
+.about>.pechano>img{
+    width: 110px;
+}
+.about>.pechano>p{
+    padding-top: 20px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.credit>a{
+    color: #d5ab2d;
+    font-size: 18px;
+    padding: 8px;
+}
+.social>a{
+    color: #d5ab2d;
+    font-size: 18px;
+    padding: 6px;
+}
+/*
+===================================
+        About us Part End
+===================================
+*/
+
+/*
+===================================
+        Footer Part Start
+===================================
+*/
+.footer_wrapper{
+    background: #D5AB2D;
+    min-height: 100px;
+    padding-top: 40px;
+}
+.rights{
+    text-transform: uppercase;
+    color: #8A4E05;
+    font-size: 16px;
+    font-weight: bold;
+}
+.rights:hover{
+    color: white;
+}
+/*
+===================================
+        Footer Part End
+===================================
+*/
